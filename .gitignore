@@ -1,5 +1,6 @@
 _site
 node_modules
+dist
 *.swp
 *.iml
 .idea
@@ -9,9 +10,7 @@ yarn-debug.log
 npm-error.log
 yarn-error.log
 reports
-dist
 src/i18n/json
 test/dev.html
-lib
 *~~bak
 

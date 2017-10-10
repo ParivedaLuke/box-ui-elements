@@ -43,10 +43,14 @@ const ShareDialog = ({
         }
     };
 
-    const { shared_link: sharedLink }: BoxItem = item;
+    /* const { shared_link: sharedLink }: BoxItem = item;
     const { url } = sharedLink || {
         url: getLocalizedMessage('buik.modal.share.dialog.text.none')
-    };
+    }; */
+    const boxItem: BoxItem = item;
+    const currentClientId: any = document.getElementById('current-client-id').innerHTML;
+    const sharedUrlBase: any = document.getElementById('box-shared-link-url-base').innerHTML;
+    const url: any = `${sharedUrlBase}?clientId=${ currentClientId }&fileOrFolderId=${ item.id }`;
 
     /* eslint-disable jsx-a11y/label-has-for */
     return (
@@ -80,13 +84,6 @@ const ShareDialog = ({
                 </label>
             </div>
             <div className='buik-modal-btns'>
-                <ShareAccessSelect
-                    className='bce-shared-access-select'
-                    canSetShareAccess={canSetShareAccess}
-                    onChange={onShareAccessChange}
-                    item={item}
-                    getLocalizedMessage={getLocalizedMessage}
-                />
                 <Button onClick={onCancel} isLoading={isLoading}>
                     {getLocalizedMessage('buik.modal.dialog.share.button.close')}
                 </Button>

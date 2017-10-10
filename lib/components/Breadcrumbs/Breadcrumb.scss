@@ -1,0 +1,23 @@
+@import '../variables';
+
+.buik-breadcrumb {
+    align-items: center;
+    display: flex;
+    min-width: 20px;
+
+    &:first-child {
+        min-width: 64px;
+    }
+
+    .buik-btn.buik-btn-plain {
+        color: $sevens;
+
+        &:last-child {
+            color: $twos;
+        }
+    }
+}
+
+.buik-breadcrumb-seperator {
+    padding: 0 6px;
+}

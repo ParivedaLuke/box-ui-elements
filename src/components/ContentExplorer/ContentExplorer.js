@@ -1060,7 +1060,9 @@ class ContentExplorer extends Component<DefaultProps, Props, State> {
      * @return {void}
      */
     shareCallback = (): void => {
+        
         const { selected }: State = this.state;
+        /*
         const { canShare }: Props = this.props;
 
         if (!selected || !canShare) {
@@ -1074,6 +1076,10 @@ class ContentExplorer extends Component<DefaultProps, Props, State> {
 
         const { can_share }: BoxItemPermission = permissions;
         if (!can_share) {
+            return;
+        } */
+
+        if(!selected) {
             return;
         }
 

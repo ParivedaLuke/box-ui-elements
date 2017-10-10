@@ -1,0 +1,447 @@
+[
+  {
+    "id": "buik.date.today",
+    "description": "Shown instead of todays date.",
+    "defaultMessage": "today"
+  },
+  {
+    "id": "buik.date.yesterday",
+    "description": "Shown instead of yesterdays date.",
+    "defaultMessage": "yesterday"
+  },
+  {
+    "id": "buik.empty.state.search",
+    "description": "Message shown when there are no search results.",
+    "defaultMessage": "Sorry, we couldn’t find what you’re looking for."
+  },
+  {
+    "id": "buik.empty.state.selected",
+    "description": "Message shown when there are no selected items.",
+    "defaultMessage": "You haven’t selected any items yet."
+  },
+  {
+    "id": "buik.empty.state.error",
+    "description": "Message shown when there is an error.",
+    "defaultMessage": "A network error has occurred while trying to load."
+  },
+  {
+    "id": "buik.empty.state.folder",
+    "description": "Message shown when there are no folder items.",
+    "defaultMessage": "There are no items in this folder."
+  },
+  {
+    "id": "buik.empty.state.recents",
+    "description": "Message shown when there are no recent items.",
+    "defaultMessage": "There are no recent items yet."
+  },
+  {
+    "id": "buik.empty.state.folder.loading",
+    "description": "Message shown when folder items are still fetching.",
+    "defaultMessage": "Please wait while the items load..."
+  },
+  {
+    "id": "buik.footer.selected",
+    "description": "Default label for selected items list in the footer.",
+    "defaultMessage": "Selected"
+  },
+  {
+    "id": "buik.footer.button.cancel",
+    "description": "Label for cancel button in the footer.",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "buik.footer.button.cancel.uploads",
+    "description": "Label for cancel uploads button in the footer.",
+    "defaultMessage": "Cancel Uploads"
+  },
+  {
+    "id": "buik.footer.button.close",
+    "description": "Label for close button in the footer.",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "buik.footer.button.choose",
+    "description": "Label for the choose button in the footer.",
+    "defaultMessage": "Choose"
+  },
+  {
+    "id": "buik.footer.button.upload",
+    "description": "Label for the upload button in the footer.",
+    "defaultMessage": "Upload"
+  },
+  {
+    "id": "buik.footer.selected.max",
+    "description": "Indicator on the footer that max items have been selected.",
+    "defaultMessage": "max"
+  },
+  {
+    "id": "buik.header.search.placeholder",
+    "description": "Shown as a placeholder in the search box.",
+    "defaultMessage": "Search files and folders"
+  },
+  {
+    "id": "buik.header.button.upload",
+    "description": "Label for the upload menu item.",
+    "defaultMessage": "Upload"
+  },
+  {
+    "id": "buik.header.button.create",
+    "description": "Label for the new folder menu item.",
+    "defaultMessage": "New Folder"
+  },
+  {
+    "id": "buik.folder.path.prefix",
+    "description": "Shown before a folder name.",
+    "defaultMessage": "In"
+  },
+  {
+    "id": "buik.item.modified",
+    "description": "Shown before folder modification date and label for modified column and preview sidebar.",
+    "defaultMessage": "Modified"
+  },
+  {
+    "id": "buik.item.created",
+    "description": "Shown in the preview sidebar.",
+    "defaultMessage": "Created"
+  },
+  {
+    "id": "buik.item.owner",
+    "description": "Shown in the preview sidebar.",
+    "defaultMessage": "Owner"
+  },
+  {
+    "id": "buik.item.uploader",
+    "description": "Shown in the preview sidebar.",
+    "defaultMessage": "Uploader"
+  },
+  {
+    "id": "buik.item.interacted",
+    "description": "Shown before folder modification date and label for interacted column.",
+    "defaultMessage": "Last Accessed"
+  },
+  {
+    "id": "buik.item.name",
+    "description": "Label for name header column.",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "buik.item.size",
+    "description": "Label for size header column.",
+    "defaultMessage": "Size"
+  },
+  {
+    "id": "buik.item.share.access.open",
+    "description": "Dropdown select option for open share access.",
+    "defaultMessage": "Access: People with the link"
+  },
+  {
+    "id": "buik.item.share.access.collaborators",
+    "description": "Dropdown select option for collaborator share access.",
+    "defaultMessage": "Access: People in this folder"
+  },
+  {
+    "id": "buik.item.share.access.company",
+    "description": "Dropdown select option for enterprise share access.",
+    "defaultMessage": "People in this company"
+  },
+  {
+    "id": "buik.item.share.access.none",
+    "description": "Dropdown select option for no access.",
+    "defaultMessage": "No shared link"
+  },
+  {
+    "id": "buik.item.share.access.remove",
+    "description": "Dropdown select option to remove access.",
+    "defaultMessage": "Remove shared link"
+  },
+  {
+    "id": "buik.btn.sort",
+    "description": "Label for sort button",
+    "defaultMessage": "Sort"
+  },
+  {
+    "id": "buik.sort.option.name.asc",
+    "description": "Name ascending option shown in the share access drop down select.",
+    "defaultMessage": "Name: A → Z"
+  },
+  {
+    "id": "buik.sort.option.name.desc",
+    "description": "Name descending option shown in the share access drop down select.",
+    "defaultMessage": "Name: Z → A"
+  },
+  {
+    "id": "buik.sort.option.date.asc",
+    "description": "Date ascending option shown in the share access drop down select.",
+    "defaultMessage": "Date: Oldest → Newest"
+  },
+  {
+    "id": "buik.sort.option.date.desc",
+    "description": "Date descending option shown in the share access drop down select.",
+    "defaultMessage": "Date: Newest → Oldest"
+  },
+  {
+    "id": "buik.sort.option.size.asc",
+    "description": "Size ascending option shown in the share access drop down select.",
+    "defaultMessage": "Size: Smallest → Largest"
+  },
+  {
+    "id": "buik.sort.option.size.desc",
+    "description": "Size descending option shown in the share access drop down select.",
+    "defaultMessage": "Size: Largest → Smallest"
+  },
+  {
+    "id": "buik.folder.name.root",
+    "description": "Default label for root folder.",
+    "defaultMessage": "All Files"
+  },
+  {
+    "id": "buik.folder.name.search",
+    "description": "Shown as the title in the sub header while searching.",
+    "defaultMessage": "Search Results"
+  },
+  {
+    "id": "buik.folder.name.recents",
+    "description": "Shown as the title in the sub header when showing recents.",
+    "defaultMessage": "Recents"
+  },
+  {
+    "id": "buik.folder.name.selected",
+    "description": "Shown as the title in the sub header while showing selected items.",
+    "defaultMessage": "Selected Items"
+  },
+  {
+    "id": "buik.folder.name.error",
+    "description": "Shown as the title in the sub header while showing an error.",
+    "defaultMessage": "Error"
+  },
+  {
+    "id": "buik.more.options.preview",
+    "description": "Label for preview menu item in the ... drop down.",
+    "defaultMessage": "Preview"
+  },
+  {
+    "id": "buik.more.options.open",
+    "description": "Label for open menu item in the ... drop down for web links.",
+    "defaultMessage": "Open"
+  },
+  {
+    "id": "buik.more.options.delete",
+    "description": "Label for delete menu item in the ... drop down.",
+    "defaultMessage": "Delete"
+  },
+  {
+    "id": "buik.more.options.rename",
+    "description": "Label for rename menu item in the ... drop down.",
+    "defaultMessage": "Rename"
+  },
+  {
+    "id": "buik.item.button.share",
+    "description": "Label for share button on item row.",
+    "defaultMessage": "Share"
+  },
+  {
+    "id": "buik.more.options.download",
+    "description": "Label for download menu item in the ... drop down.",
+    "defaultMessage": "Download"
+  },
+  {
+    "id": "buik.modal.delete.confirmation.label",
+    "description": "Label for delete confirmation dialog",
+    "defaultMessage": "Confirm Delete"
+  },
+  {
+    "id": "buik.modal.delete.confirmation.text",
+    "description": "Text for delete confirmation dialog",
+    "defaultMessage": "Are you sure you want to delete {name}?"
+  },
+  {
+    "id": "buik.modal.delete.confirmation.text.folder",
+    "description": "Text for delete confirmation dialog for folders",
+    "defaultMessage": "Are you sure you want to delete {name} and all its contents?"
+  },
+  {
+    "id": "buik.modal.rename.dialog.label",
+    "description": "Label for rename dialog",
+    "defaultMessage": "Rename"
+  },
+  {
+    "id": "buik.modal.rename.dialog.text",
+    "description": "Text for rename dialog",
+    "defaultMessage": "Please enter a new name for {name}:"
+  },
+  {
+    "id": "buik.modal.create.dialog.label",
+    "description": "Label for create folder dialog",
+    "defaultMessage": "New Folder"
+  },
+  {
+    "id": "buik.modal.create.dialog.text",
+    "description": "Text for create folder dialog",
+    "defaultMessage": "Please enter a name."
+  },
+  {
+    "id": "buik.modal.create.dialog.button",
+    "description": "Text for create folder dialog button",
+    "defaultMessage": "Create"
+  },
+  {
+    "id": "buik.upload.message.toomanyfiles",
+    "description": "Message shown when too many files are uploaded at once",
+    "defaultMessage": "You can only upload up to {fileLimit} files at a time."
+  },
+  {
+    "id": "buik.upload.state.error",
+    "description": "Message shown when there is a network error when uploading",
+    "defaultMessage": "A network error has occured while trying to upload."
+  },
+  {
+    "id": "buik.upload.state.empty",
+    "description": "Message shown when there are no items to upload",
+    "defaultMessage": "Drag and drop files or"
+  },
+  {
+    "id": "buik.upload.state.empty.input",
+    "description": "Message shown for upload link when there are no items to upload",
+    "defaultMessage": "browse your device"
+  },
+  {
+    "id": "buik.upload.state.empty.input.nodragdrop",
+    "description": "Message shown on a device with no drag and drop support when there are no items to upload",
+    "defaultMessage": "Select files from your device"
+  },
+  {
+    "id": "buik.upload.state.inprogress",
+    "description": "Message shown when user drag and drops files onto uploads in progress",
+    "defaultMessage": "Drag and drop to add additional files"
+  },
+  {
+    "id": "buik.upload.state.success",
+    "description": "Message shown when all files have been successfully uploaded",
+    "defaultMessage": "Success! Your files have been uploaded"
+  },
+  {
+    "id": "buik.upload.state.success.input",
+    "description": "Message shown for upload link after a successful upload",
+    "defaultMessage": "Upload additional files"
+  },
+  {
+    "id": "buik.action.button.pending",
+    "description": "Message shown in tooltip for remove button for a pending upload",
+    "defaultMessage": "Remove"
+  },
+  {
+    "id": "buik.action.button.inprogress",
+    "description": "Message shown in tooltip for cancel button for an upload in progress",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "buik.action.button.complete",
+    "description": "Message shown in tooltip for remove button for a completed upload",
+    "defaultMessage": "Remove"
+  },
+  {
+    "id": "buik.action.button.error",
+    "description": "Message shown in tooltip for retry button for an upload with an error",
+    "defaultMessage": "Retry"
+  },
+  {
+    "id": "buik.modal.rename.dialog.error.invalid",
+    "description": "Error text for rename dialog when name is invalid",
+    "defaultMessage": "This name is invalid."
+  },
+  {
+    "id": "buik.modal.rename.dialog.error.inuse",
+    "description": "Error text for rename dialog when name is already in use",
+    "defaultMessage": "An item with the same name already exists."
+  },
+  {
+    "id": "buik.modal.rename.dialog.error.toolong",
+    "description": "Error text for rename dialog when name is too long",
+    "defaultMessage": "This name is too long."
+  },
+  {
+    "id": "buik.modal.create.dialog.error.invalid",
+    "description": "Error text for create folder dialog when name is invalid",
+    "defaultMessage": "This is an invalid folder name."
+  },
+  {
+    "id": "buik.modal.create.dialog.error.toolong",
+    "description": "Error text for create folder dialog when name is too long",
+    "defaultMessage": "This folder name is too long."
+  },
+  {
+    "id": "buik.modal.create.dialog.error.inuse",
+    "description": "Error text for create folder dialog when name is already in use",
+    "defaultMessage": "An folder with the same name already exists."
+  },
+  {
+    "id": "buik.modal.preview.dialog.label",
+    "description": "Label for preview dialog",
+    "defaultMessage": "Preview"
+  },
+  {
+    "id": "buik.modal.upload.dialog.label",
+    "description": "Label for upload dialog",
+    "defaultMessage": "Upload"
+  },
+  {
+    "id": "buik.modal.share.dialog.label",
+    "description": "Label for shared link dialog",
+    "defaultMessage": "Share"
+  },
+  {
+    "id": "buik.modal.share.dialog.text",
+    "description": "Text for share link dialog",
+    "defaultMessage": "Shared Link:"
+  },
+  {
+    "id": "buik.modal.share.dialog.text.none",
+    "description": "Text for no shared link",
+    "defaultMessage": "None"
+  },
+  {
+    "id": "buik.modal.dialog.share.button.copy",
+    "description": "Copy button label",
+    "defaultMessage": "Copy"
+  },
+  {
+    "id": "buik.modal.dialog.share.button.close",
+    "description": "Close button label",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "buik.preview.sidebar.details.description",
+    "description": "Label for the description field in the preview sidebar",
+    "defaultMessage": "Description"
+  },
+  {
+    "id": "buik.preview.sidebar.details.description.placeholder",
+    "description": "Placeholder for file description in preview sidebar",
+    "defaultMessage": "Enter a description"
+  },
+  {
+    "id": "buik.preview.sidebar.details.title",
+    "description": "Title for the details sidebar",
+    "defaultMessage": "Details"
+  },
+  {
+    "id": "buik.preview.sidebar.details.properties",
+    "description": "Label for file properties section in the preview sidebar",
+    "defaultMessage": "File Properties"
+  },
+  {
+    "id": "buik.preview.sidebar.details.keywords",
+    "description": "Label for keywords section in the preview sidebar",
+    "defaultMessage": "Keywords"
+  },
+  {
+    "id": "buik.preview.sidebar.details.timeline",
+    "description": "Label for timelines section in the preview sidebar",
+    "defaultMessage": "Timelines"
+  },
+  {
+    "id": "buik.preview.sidebar.details.transcript",
+    "description": "Label for transcripts section in the preview sidebar",
+    "defaultMessage": "Transcripts"
+  }
+]
