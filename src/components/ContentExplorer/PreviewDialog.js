@@ -49,7 +49,7 @@ const PreviewDialog = ({
         onPreview(cloneDeep(data));
     };
 
-    if (!item || !items || !isOpen) {
+    if (!item || !items) {
         return null;
     }
 
@@ -74,6 +74,7 @@ const PreviewDialog = ({
                 token={token}
                 hasHeader
                 collection={files}
+                showDownload={true}
                 onLoad={onLoad}
                 onClose={onCancel}
                 hasSidebar={hasPreviewSidebar}
