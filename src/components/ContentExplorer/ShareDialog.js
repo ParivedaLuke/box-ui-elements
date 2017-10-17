@@ -50,7 +50,7 @@ const ShareDialog = ({
     const boxItem: BoxItem = item;
     const currentClientId: any = document.getElementById('current-client-id').innerHTML;
     const sharedUrlBase: any = document.getElementById('box-shared-link-url-base').innerHTML;
-    const url: any = `${sharedUrlBase}?clientId=${ currentClientId }&fileOrFolderId=${ item.id }`;
+    const url: any = `${sharedUrlBase}?client=${ currentClientId }&box=${ item.id }`;
 
     /* eslint-disable jsx-a11y/label-has-for */
     return (
