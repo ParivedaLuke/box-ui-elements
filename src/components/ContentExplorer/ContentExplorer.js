@@ -1367,6 +1367,7 @@ class ContentExplorer extends Component<DefaultProps, Props, State> {
                         getLocalizedMessage={getLocalizedMessage}
                         parentElement={this.rootElement}
                         onPreview={onPreview}
+                        showDownload
                         hasPreviewSidebar={hasPreviewSidebar}
                         cache={this.api.getCache()}
                         apiHost={apiHost}
